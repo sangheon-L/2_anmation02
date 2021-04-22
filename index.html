@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>animation02</title>
+     <style>
+     div{
+       position: relative;
+       width: 100px;
+       height: 100px;
+       background: red;
+       animation-name: exm;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       
+
+     }
+
+     @keyframes exm{
+       from{
+         left: 0;
+         background: red;
+       }
+       50%{
+         left: 200px;
+         background: yellow;
+       }
+       to{
+         left: 0;
+         background: red;
+       }
+
+     }
+
+
+     </style>
+
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
+ <body>
+   <div>box</div>
+ </body>
+ </html>
